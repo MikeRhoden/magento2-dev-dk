@@ -1,7 +1,12 @@
 /magento22.loc
 /magento23.loc
 /debian_config/composer/auth.json
-/instances/magento2ce
 .docker-sync/
 .idea
 .DS_Store
+
+!instances/magento2ce
+instances/magento2ce/*
+!instances/magento2ce/app/
+instances/magento2ce/app/*
+!instances/magento2ce/app/code/

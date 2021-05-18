@@ -15,10 +15,8 @@ services:
       - "8080:80"
       - "4306:3306"
     volumes:
-#       - /Path/To/Your/magento/magento2-dev-dk/instances:/var/www/html/shared
+       - /home/mike/dev/magento2-dev-dk/instances:/var/www/html/shared
 #       - /Users/molochko/Sites/magento/magento2-dev-dk/instances:/var/www/html/shared
-       - src-volume-dk:/var/www/html/shared
+#       - src-volume-dk:/var/www/html/shared
     tty: true
     container_name: m23
-volumes:
-  src-volume-dk:
